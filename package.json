@@ -1,0 +1,37 @@
+{
+  "name": "mytube-backend",
+  "version": "1.0.0",
+  "description": "MyTube Backend",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.11.0 <21.0.0"
+  },
+    "scripts": {
+    "dev": "node -r dotenv/config --experimental-json-modules src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "mytube"
+  ],
+  "author": "Zeel Patel",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.2.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "mongoose-aggregate-paginate-v2": "^1.0.7",
+    "multer": "^1.4.5-lts.1"
+  }
+}
