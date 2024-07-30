@@ -8,8 +8,8 @@
     "node": ">=20.11.0 <21.0.0"
   },
     "scripts": {
-    "dev": "node -r dotenv/config --experimental-json-modules src/index.js",
-    "start": "node src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+    "start": "node -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "javascript",
